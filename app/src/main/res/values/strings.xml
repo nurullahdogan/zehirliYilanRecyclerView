@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">H5190026_NurullahDoganFinal</string>
+    <string name="txtBoyu">Boyu</string>
+    <string name="txtAilesi">Ailesi</string>
+    <string name="progressDialogBaslik">Yükleniyor...</string>
+    <string name="txtBaslik">BAŞLIK</string>
+    <string name="txtDetay">DETAY</string>
+
+
+    <string name="cikisAlertBaslik">Çıkış Yap</string>
+    <string name="cikisAlertMesaj">Çıkış yapmak istediğinize eminmisin</string>
+    <string name="cikisAlertPositiveButton">EVET</string>
+    <string name="cikisAlertNegativeButton">HAYIR</string>
+
+
+    <string name="internetAlertBaslik">İnternet kontrol</string>
+    <string name="internetAlertMesaj">Internetiniz kapalı devam etmek için lütfen cihazınızı internete bağlayınız</string>
+    <string name="internetAlertPositiveButton">Interneti aç</string>
+    <string name="internetAlertNegativeButton">Uygulamayı kapat</string>
+
+</resources>

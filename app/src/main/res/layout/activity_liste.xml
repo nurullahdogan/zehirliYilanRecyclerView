@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ListeActivity">
+
+    <ImageView
+        android:id="@+id/imgKapak"
+        android:layout_width="@dimen/kapakViewImageWidth"
+        android:layout_height="@dimen/kapakViewImageHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvYilanlar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recyclerViewHeight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgKapak"
+        tools:listitem="@layout/cardwiew_yilan" />
+</androidx.constraintlayout.widget.ConstraintLayout>

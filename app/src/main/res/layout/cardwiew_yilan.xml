@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardViewLayoutMargin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardViewHeight">
+
+            <TextView
+                android:id="@+id/txtAile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardViewMarginStart"
+                android:layout_marginTop="@dimen/aileMarginTop"
+                app:layout_constraintStart_toEndOf="@+id/imgYilanLogo"
+                app:layout_constraintTop_toBottomOf="@+id/txtAileBaslik"
+                tools:text=" Elapidae" />
+
+            <TextView
+                android:id="@+id/txtBoyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardViewMarginStart"
+                android:layout_marginTop="@dimen/boyuMarginTop"
+                app:layout_constraintStart_toEndOf="@+id/imgYilanLogo"
+                app:layout_constraintTop_toBottomOf="@+id/txtBoyuBaslik"
+                tools:text=" 2–3 metre" />
+
+            <TextView
+                android:id="@+id/txtYilanAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardViewMarginStart"
+                android:layout_marginTop="@dimen/yilanAdiMarginTop"
+                app:layout_constraintStart_toEndOf="@+id/imgYilanLogo"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Baslik"
+                tools:textSize="@dimen/yilanAdiTextSize" />
+
+            <ImageView
+                android:id="@+id/imgYilanLogo"
+                android:layout_width="@dimen/cardViewImageWidth"
+                android:layout_height="@dimen/cardViewImageHeight"
+                android:scaleType="fitXY"
+                android:layout_marginStart="@dimen/yilanLogoViewImageMarginStart"
+                android:layout_marginTop="@dimen/yilanLogoViewImageMarginTop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtBoyuBaslik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardViewMarginStart"
+                android:layout_marginTop="@dimen/boyuBaslikMarginTop"
+                android:text="@string/txtBoyu"
+                app:layout_constraintStart_toEndOf="@+id/imgYilanLogo"
+                app:layout_constraintTop_toBottomOf="@+id/txtYilanAdi" />
+
+            <TextView
+                android:id="@+id/txtAileBaslik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardViewMarginStart"
+                android:layout_marginTop="@dimen/aileBaslikMarginTop"
+                app:layout_constraintStart_toEndOf="@+id/imgYilanLogo"
+                android:text="@string/txtAilesi"
+                app:layout_constraintTop_toBottomOf="@+id/txtBoyu"
+                tools:text="Aile" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

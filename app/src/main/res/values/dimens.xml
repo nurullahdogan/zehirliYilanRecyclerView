@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_padding">16dp</dimen>
+
+    <dimen name="cardViewHeight">170dp</dimen>
+    <dimen name="cardViewMarginStart">10dp</dimen>
+    <dimen name="cardViewImageWidth">100dp</dimen>
+    <dimen name="cardViewImageHeight">140dp</dimen>
+    <dimen name="cardViewLayoutMargin">16dp</dimen>
+
+
+    <dimen name="kapakViewImageWidth">627dp</dimen>
+    <dimen name="kapakViewImageHeight">235dp</dimen>
+
+    <dimen name="logoViewİmageWidth">180dp</dimen>
+    <dimen name="logoViewİmageHeight">180dp</dimen>
+    <dimen name="logoViewİmageMargin_Top">20dp</dimen>
+    <dimen name="kapakDetayViewİmageHeight">200dp</dimen>
+
+    <dimen name="detayBaslikPedding">10dp</dimen>
+    <dimen name="detayBaslikTextSize">30sp</dimen>
+
+    <dimen name="detayDetayPadding">10dp</dimen>
+    <dimen name="detayDetayTextSize">20sp</dimen>
+
+    <dimen name="recyclerViewHeight">0dp</dimen>
+
+    <dimen name="aileMarginTop">5dp</dimen>
+    <dimen name="boyuMarginTop">3dp</dimen>
+    <dimen name="yilanAdiMarginTop">15dp</dimen>
+    <dimen name="yilanAdiTextSize">27sp</dimen>
+
+    <dimen name="yilanLogoViewImageMarginStart">24dp</dimen>
+    <dimen name="yilanLogoViewImageMarginTop">16dp</dimen>
+
+    <dimen name="boyuBaslikMarginTop">16dp</dimen>
+    <dimen name="aileBaslikMarginTop">8dp</dimen>
+
+</resources>
